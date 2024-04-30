@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="login.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <video loop autoplay muted src="../main/imag/video2.mp4"></video>
+    <div class="container">
+      <h2>Welcome Back!</h2>
+      <p>
+        Don't have an account yet?
+        <span><a href="/sing up/sing up.html">Sign in now</a></span>
+      </p>
+      <form>
+        <div class="input-field">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+        <div class="input-field">
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter your password"
+            required
+          />
+        </div>
+        <button type="submit"><i class="fas fa-sign-in-alt"></i> Log In</button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+#container {
+  background-color: #14274e;
+}
+h1 {
+  color: #fa7070;
+  padding-left: 5px;
+  padding-right: 0px;
+}
+img {
+  width: 25px;
+  hight: 25px;
+  margin-right: 8px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+#all {
+  width: 70px;
+  padding-left: 45%;
+  border-radius: 0%;
+  padding-top: 7px;
+}
+table {
+  background-color: #9ba4b4;
+}
+tr {
+  background-color: #14274e;
+}
+th {
+  width: 200px;
+  color: #9ba4b4;
+  background-color: #14274e;
+}
+td {
+  color: #9ba4b4;
+  padding-left: 5px;
+}
+#ss {
+  padding-right: 150px;
+}
+#hh {
+  padding-right: 0px;
+}
+#red {
+  color: #fa7070;
+}
+#blue {
+  color: #008dda;
+}
+#orange {
+  color: #ffbb70;
+}
+#green {
+  color: #74e291;
+}
+h4 {
+  color: #9ba4b4;
+  padding-left: 10px;
+}
+#aw {
+  width: 10px;
+  hight: 10px;
+  margin-right: 8px;
+  border-radius: 0%;
+  vertical-align: middle;
+}
+
+.footer {
+  background-color: #948979;
+  color: #fff;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.FOOTR-TITLE {
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+.FOOTR-TITLE span {
+  color: #45bfbf;
+}
+.footer .social-icons a {
+  font-size: 1.4em;
+  padding: 0 12px 0 0;
+}
