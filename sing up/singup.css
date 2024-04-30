@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+header{
+  
+  align-self: first baseline;
+  background-color: #000016;
+  width: 100%;
+  position: fixed;
+  z-index: 22;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+}
+
+.nav > .dropdown {
+  position: relative;
+  display: inline-block;
+  padding-left: 30px;
+  padding-right: 100px;
+}
+
+.nav > .dropdown .dropbtn {
+  color: chocolate;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;  
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.nav > .dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #948979;
+  min-width: 120px;
+  z-index: 1;
+  opacity: 0; 
+  transition: opacity 0.3s ease;
+}
+
+.nav > .dropdown .dropdown-content a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 500;
+  display: block;
+  padding: 10px 20px;
+}
+
+.nav > .dropdown .dropdown-content a:hover {
+  background-color: chocolate;
+  
+}
+
+.nav > .dropdown:hover .dropdown-content {
+  display: block;
+  opacity: 1;
+}
+
+.logo{
+  color: #0E46A3;
+  text-decoration: none;
+  font-size: 1.8em;
+  font-weight: 700;
+  margin-left: 50px;
+  
+}
+
+.nav >a {
+  color: chocolate;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;  
+  padding-left: 30px;
+}
+nav >a:hover , nav >.dropbtn:hover{
+  color: #0ca157;
+}
+
+  .container {
+    
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.678);
+    width: 500px;
+    padding: 40px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+  }
+  
+  h2 {
+    margin-bottom: 30px;
+    font-size: 28px; 
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  .input-field {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  span {
+    color: blue;
+    cursor: pointer;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px; 
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    
+  }
+  input:hover ,input:link{
+    border: #0056b3 2px solid;
+    transition: all 5s;
+    border-color: transparent blue;
+  }
+  
+  button {
+    width: 100%;
+    padding: 15px; 
+    border: none;
+    border-radius: 8px; 
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  video{
+    position: fixed;
+    top: -10;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+  

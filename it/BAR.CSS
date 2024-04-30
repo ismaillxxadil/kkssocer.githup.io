@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #6a0303;
+  color: #ffffff;
+  height: 1900vh;
+  width: 100%;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  justify-content: center;
+  font-family: system-ui;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000016;
+  width: 100%;
+  position: fixed;
+  z-index: 22;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 10px 200px;
+}
+
+.nav > .dropdown {
+  position: relative;
+  display: inline-block;
+  padding-left: 30px;
+}
+
+.nav > .dropdown .dropbtn {
+  color: chocolate;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.nav > .dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #948979;
+  min-width: 120px;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.nav > .dropdown .dropdown-content a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 500;
+  display: block;
+  padding: 10px 20px;
+}
+
+.nav > .dropdown .dropdown-content a:hover {
+  background-color: chocolate;
+}
+
+.nav > .dropdown:hover .dropdown-content {
+  display: block;
+  opacity: 1;
+}
+
+.logo {
+  color: #0e46a3;
+  text-decoration: none;
+  font-size: 1.8em;
+  font-weight: 700;
+}
+
+.nav > a {
+  color: chocolate;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 30px;
+}
+nav > a:hover,
+nav > .dropbtn:hover {
+  color: #0ca157;
+}
+
+.banner {
+  background-image: url("football-banner.jpg");
+  background-size: cover;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 100px 20px;
+}
+
+.players {
+  padding: 100px;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #2b547e;
+  color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.players .player {
+  flex: 1;
+  margin: 20px 20px;
+  box-shadow: 0px 2px 8px 0px rgba(255, 255, 255, 0.995);
+}
+
+.players .player img {
+  width: 100%;
+  height: auto;
+}
+
+.players.player h2 {
+  margin: 15px;
+  font: size 30px;
+  color: #fafafa;
+  font-family: sans-serif;
+}
+
+.players.player p {
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 0px 10px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+
+.players {
+  flex-direction: column;
+}
+.matches {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px;
+}
+
+.matches ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.matches ul li {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 10px;
+}
+
+.contact {
+  padding: 20px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact label {
+  margin-bottom: 10px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contact button {
+  padding: 10px;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #948979;
+  color: #fff;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.FOOTR-TITLE {
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+.FOOTR-TITLE span {
+  color: #45bfbf;
+}
+.footer .social-icons a {
+  font-size: 1.4em;
+  padding: 0 12px 0 0;
+}

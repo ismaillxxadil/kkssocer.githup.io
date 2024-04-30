@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Josefin+Sans:ital,wght@1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Alkalami", serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.ligth-mode {
+  background-color: #f2f2f2;
+  color: #000016;
+}
+header {
+  background-color: #000016;
+  width: 100%;
+  position: fixed;
+  z-index: 22;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+}
+
+.nav > .dropdown {
+  position: relative;
+  display: inline-block;
+  padding-left: 30px;
+}
+
+.nav > .dropdown .dropbtn {
+  color: chocolate;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.nav > .dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #948979;
+  min-width: 120px;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.nav > .dropdown .dropdown-content a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 500;
+  display: block;
+  padding: 10px 20px;
+}
+
+.nav > .dropdown .dropdown-content a:hover {
+  background-color: chocolate;
+}
+
+.nav > .dropdown:hover .dropdown-content {
+  display: block;
+  opacity: 1;
+}
+
+.logo {
+  color: #0e46a3;
+  text-decoration: none;
+  font-size: 1.8em;
+  font-weight: 700;
+}
+
+.nav > a {
+  color: chocolate;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 30px;
+}
+nav > a:hover,
+nav > .dropbtn:hover {
+  color: #0ca157;
+}
+#dark-mode-btn {
+  background-color: #0ca157;
+  color: #f2f2f2;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+#dark-mode-btn:hover {
+  background-color: #0e7340;
+}
+header.dark-mode {
+  background-color: #1a1a1a;
+  color: #f2f2f2;
+}
+
+.dark-mode .dropdown-content {
+  background-color: #4d4d4d;
+}
+
+.dark-mode .dropdown-content a:hover {
+  background-color: #8c8c8c;
+}
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(imag/easoprt2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.main h2 {
+  color: #fff;
+  font-size: 2.4em;
+  font-weight: 500;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+.main h2 span {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: rgba(243, 243, 243, 0.582);
+  color: #13264f;
+  border-radius: 50%;
+  font-size: 2.6em;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+.main h4 {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+
+.social-icons a {
+  color: wheat;
+  font-size: 2.5em;
+  padding-right: 30px;
+
+  box-shadow: 5px 5px 5px rgba(3, 10, 46, 0.15);
+}
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.iconic-moment {
+  background-color: #000016;
+}
+
+.iconic-content {
+  margin-top: 30px;
+}
+
+.iconic-card {
+  background-color: #fff;
+  border: 3px solid #ffae00;
+  min-height: 14em;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+  transition: 0.7s ease;
+  width: 23em;
+}
+
+.iconic-card:hover {
+  transform: scale(1.1);
+}
+
+.iconic-card .project-img {
+  opacity: 0.9;
+}
+
+.iconic-img img {
+  width: 100%;
+}
+
+.iconic-infor {
+  padding: 1em;
+}
+.iconic-categorg {
+  font-size: 1em;
+  color: #000016;
+  font-weight: 700;
+}
+.iconic-title {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 800;
+  margin-top: 10px;
+  color: #ffae00;
+}
+
+.more-details {
+  text-decoration: none;
+  color: #3a6cf4;
+}
+
+.more-details:hover {
+  color: #ffae00;
+}
+.x {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  color: goldenrod;
+  font-weight: 800;
+  font-size: 2.2em;
+  margin-bottom: 30px;
+}
+table {
+  background-color: #000016;
+  width: 1100px;
+  margin-bottom: 100px;
+}
+.head-row {
+  background-color: gray;
+  height: 50px;
+}
+th {
+  width: 100px;
+  font-size: 20px;
+}
+.Match-data {
+  background-color: lightblue;
+  height: 80px;
+}
+.content-table {
+  display: flex;
+  justify-content: center;
+}
+.Match-T > h2 {
+  color: lightslategray;
+  margin-top: 50px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+.news-section {
+  display: flex;
+  font-family: sans-serif;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.news {
+  background-color: #000016;
+  margin: 0;
+}
+.news > h2 {
+  color: #fff;
+  margin: 0;
+}
+
+.contener-news {
+  display: flex;
+  width: 90vw;
+}
+
+.panel {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #000016;
+  flex: 0.5;
+  margin: 10px;
+  position: relative;
+  transition: flex 0.7s ease-in;
+}
+h3 {
+  font-size: 24px;
+
+  margin: 0;
+  opacity: 0;
+  color: #5755fe;
+}
+.panel.activ {
+  flex: 5;
+}
+.panel.activ h3,
+.panel.activ .details-news,
+.panel.activ button {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+
+.news-div {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.details-news {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  font-style: initial;
+  margin: 0;
+  opacity: 0;
+  color: #dac0a3;
+}
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+  opacity: 0;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.footer {
+  background-color: #948979;
+  color: #fff;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.FOOTR-TITLE {
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+.FOOTR-TITLE span {
+  color: #45bfbf;
+}
+.footer .social-icons a {
+  font-size: 1.4em;
+  padding: 0 12px 0 0;
+}

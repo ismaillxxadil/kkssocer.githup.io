@@ -1,0 +1,266 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #000016;
+  width: 100%;
+  position: fixed;
+  z-index: 22;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 10px 200px;
+}
+
+.nav > .dropdown {
+  position: relative;
+  display: inline-block;
+  padding-left: 30px;
+}
+
+.nav > .dropdown .dropbtn {
+  color: chocolate;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.nav > .dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #948979;
+  min-width: 120px;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.nav > .dropdown .dropdown-content a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 500;
+  display: block;
+  padding: 10px 20px;
+}
+
+.nav > .dropdown .dropdown-content a:hover {
+  background-color: chocolate;
+}
+
+.nav > .dropdown:hover .dropdown-content {
+  display: block;
+  opacity: 1;
+}
+
+.logo {
+  color: #0e46a3;
+  text-decoration: none;
+  font-size: 1.8em;
+  font-weight: 700;
+}
+
+.nav > a {
+  color: chocolate;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 30px;
+}
+nav > a:hover,
+nav > .dropbtn:hover {
+  color: #0ca157;
+}
+
+.player-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.player-image {
+  flex: 0 0 200px;
+  margin-right: 40px;
+}
+
+.player-image img {
+  width: 100%;
+  height: 150%;
+  border-radius: 0;
+}
+
+.player-info {
+  flex: 1;
+}
+
+h1 {
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.position,
+.team {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.stats {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.stat {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.stat h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.stat p {
+  font-size: 18px;
+  color: ;
+  margin-bottom: 20px;
+}
+
+.biography h2 {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.biography p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+.icon {
+  background: #e5e7eb;
+  color: #fff;
+}
+.wrapper {
+  padding: 10px 10%;
+}
+#card-area {
+  padding-bottom: 50px;
+}
+.box-area {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+}
+.box {
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+}
+.box img {
+  width: 100%;
+
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+}
+.overlay {
+  width: 100%;
+  height: 0;
+  background: linear-gradient(transparent, #1c1c1c 58%);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
+}
+.overlay h3 {
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-top: 80%;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.overlay a {
+  margin-top: 10px;
+  color: #262626;
+  text-decoration: none;
+  font-size: 14px;
+  background: #fff;
+  border-radius: 50px;
+  text-align: center;
+  padding: 5px 15px;
+}
+.box:hover img {
+  transform: scale(1.1);
+}
+.box:hover .overlay {
+  height: 100%;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  color: rgb(51, 49, 45);
+  font-weight: 800;
+  font-size: 2.2em;
+  margin-bottom: 30px;
+  font-family: serif "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+}
+
+.footer {
+  width: 100%;
+  background-color: #948979;
+  color: #fff;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.FOOTR-TITLE {
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+.FOOTR-TITLE span {
+  color: #45bfbf;
+}
+.footer .social-icons a {
+  font-size: 1.4em;
+  padding: 0 12px 0 0;
+}
